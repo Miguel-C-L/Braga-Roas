@@ -1,0 +1,659 @@
+/* ==========================================================
+   RESPONSIVE.CSS
+   BRAGA, ROAS ADVOGADOS
+   ========================================================== */
+
+/* ==========================================================
+   1400px
+========================================================== */
+
+@media (max-width:1400px){
+
+    .container{
+
+        width:min(100% - 60px,1200px);
+
+    }
+
+}
+
+/* ==========================================================
+   1200px
+========================================================== */
+
+@media (max-width:1200px){
+
+    .container{
+
+        width:min(100% - 50px,1100px);
+
+    }
+
+    .practice-grid{
+
+        grid-template-columns:repeat(4,1fr);
+
+    }
+
+    .about-grid{
+
+        gap:50px;
+
+    }
+
+    .advantages-grid{
+
+        gap:50px;
+
+    }
+
+    .numbers-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:35px;
+
+    }
+
+    .footer-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:45px;
+
+    }
+
+}
+
+/* ==========================================================
+   992px
+========================================================== */
+
+@media (max-width:992px){
+
+    #navbar{
+
+        display:none;
+
+    }
+
+    #mobileButton{
+
+        display:flex;
+
+    }
+
+    .btn-header{
+
+        display:none;
+
+    }
+
+    .hero{
+
+        background-attachment:scroll;
+
+        text-align:center;
+
+    }
+
+    .hero-content{
+
+        margin:auto;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+    }
+
+    .about-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .advantages-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .team-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .practice-grid{
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+
+}
+
+    .testimonial{
+
+        flex:0 0 calc(50% - 15px);
+
+    }
+
+    .contact-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .footer-grid{
+
+        grid-template-columns:1fr 1fr;
+
+    }
+
+}
+
+/* ==========================================================
+   768px
+========================================================== */
+
+@media (max-width:768px){
+
+    .section{
+
+        padding:90px 0;
+
+    }
+
+    h1{
+
+        font-size:2.8rem;
+
+    }
+
+    h2{
+
+        font-size:2.2rem;
+
+    }
+
+    .practice-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:18px;
+
+}
+
+    .about-cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .numbers-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .testimonial{
+
+        flex:0 0 100%;
+
+    }
+
+    .footer-grid{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+    .social-links{
+
+        align-items:center;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .btn-primary,
+    .btn-secondary{
+
+        width:100%;
+
+    }
+
+}
+/* ==========================================================
+   576px
+========================================================== */
+
+@media (max-width:576px){
+
+    html{
+
+        font-size:15px;
+
+    }
+
+    .container{
+
+        width:min(100% - 32px,100%);
+
+    }
+
+    #header .container{
+
+        min-height:78px;
+
+    }
+
+    .logo img{
+
+        width:150px;
+
+    }
+
+    .hero{
+
+        min-height:90vh;
+
+        padding:120px 0 80px;
+
+    }
+
+    .hero h1{
+
+        font-size:2.3rem;
+
+        line-height:1.2;
+
+    }
+
+    .hero p{
+
+        font-size:1rem;
+
+    }
+
+    .section{
+
+        padding:70px 0;
+
+    }
+
+    .section-title{
+
+        margin-bottom:50px;
+
+    }
+
+    .section-title h2{
+
+        font-size:2rem;
+
+    }
+
+    .about-card{
+
+        padding:24px;
+
+    }
+
+    .practice-card{
+
+    padding:22px 16px;
+
+    min-height:180px;
+
+}
+
+    .practice-icon{
+
+        width:70px;
+
+        height:70px;
+
+    }
+
+    .practice-icon svg{
+
+        width:36px;
+
+        height:36px;
+
+    }
+
+    .team-card{
+
+        padding:32px 24px;
+
+    }
+
+    .team-card img{
+
+        width:140px;
+
+        height:140px;
+
+    }
+
+    .testimonial{
+
+        padding:28px 22px;
+
+    }
+
+    .number-box h2{
+
+        font-size:2.8rem;
+
+    }
+
+    .contact-form{
+
+        padding:30px 22px;
+
+    }
+
+    .form-group input,
+    .form-group textarea{
+
+        padding:14px;
+
+    }
+
+    .info-card{
+
+        padding:22px;
+
+    }
+
+    .map-area iframe{
+
+        height:320px;
+
+    }
+
+    .footer{
+
+        padding:60px 0 20px;
+
+    }
+
+    .footer-logo{
+
+        margin:0 auto 24px;
+
+    }
+
+    .footer-bottom{
+
+        margin-top:40px;
+
+    }
+
+    #backToTop{
+
+        width:48px;
+
+        height:48px;
+
+        right:18px;
+
+        bottom:18px;
+
+        font-size:18px;
+
+    }
+
+    .practice-card h3{
+
+    font-size:17px;
+
+    min-height:auto;
+
+}
+
+.practice-card p{
+
+    display:none;
+
+}
+
+}
+
+/* ==========================================================
+   375px
+========================================================== */
+
+@media (max-width:375px){
+
+    html{
+
+        font-size:14px;
+
+    }
+
+    .container{
+
+        width:min(100% - 24px,100%);
+
+    }
+
+    #header .container{
+
+        min-height:72px;
+
+    }
+
+    .logo img{
+
+        width:135px;
+
+    }
+
+    .hero{
+
+        min-height:85vh;
+
+    }
+
+    .hero h1{
+
+        font-size:2rem;
+
+    }
+
+    .hero-buttons{
+
+        gap:14px;
+
+    }
+
+    .btn-primary,
+    .btn-secondary{
+
+        min-height:50px;
+
+        padding:0 20px;
+
+        font-size:.95rem;
+
+    }
+
+    .section{
+
+        padding:60px 0;
+
+    }
+
+    .about-card,
+    .practice-card,
+    .team-card,
+    .testimonial,
+    .contact-form,
+    .info-card{
+
+        border-radius:16px;
+
+    }
+
+    .team-card img{
+
+        width:120px;
+
+        height:120px;
+
+    }
+
+    .practice-icon{
+
+        width:64px;
+
+        height:64px;
+
+    }
+
+    .practice-icon svg{
+
+        width:30px;
+
+        height:30px;
+
+    }
+
+    .number-box h2{
+
+        font-size:2.3rem;
+
+    }
+
+    .footer-grid{
+
+        gap:28px;
+
+    }
+
+    .social-links{
+
+        gap:12px;
+
+    }
+
+    #mobileMenu nav{
+
+        gap:22px;
+
+    }
+
+    #mobileMenu a{
+
+        font-size:1.15rem;
+
+    }
+
+    .practice-card{
+
+    min-height:160px;
+
+    padding:18px 14px;
+
+}
+
+.practice-card h3{
+
+    font-size:16px;
+
+}
+
+.practice-card p{
+
+    display:none;
+
+}
+
+}
+
+/* ==========================================================
+   DISPOSITIVOS TOUCH
+========================================================== */
+
+@media (hover:none){
+
+    .practice-card:hover,
+    .team-card:hover,
+    .about-card:hover,
+    .info-card:hover,
+    .advantages-list li:hover{
+
+        transform:none;
+
+    }
+
+}
+
+/* ==========================================================
+   LANDSCAPE
+========================================================== */
+
+@media (max-height:500px) and (orientation:landscape){
+
+    .hero{
+
+        min-height:120vh;
+
+        padding:140px 0 80px;
+
+    }
+
+}
+
+/* ==========================================================
+   IMPRESSÃO
+========================================================== */
+
+@media print{
+
+    #header,
+    #backToTop,
+    #mobileButton,
+    #mobileMenu,
+    .hero-buttons,
+    .cta-section,
+    footer{
+
+        display:none !important;
+
+    }
+
+    body{
+
+        background:#fff;
+
+        color:#000;
+
+    }
+
+    a{
+
+        text-decoration:none;
+
+        color:#000;
+
+    }
+
+}
+
+/* ==========================================================
+   FIM DO RESPONSIVE.CSS
+========================================================== */
