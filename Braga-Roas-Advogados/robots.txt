@@ -1,0 +1,16 @@
+# ==========================================================
+# BRAGA, ROAS ADVOGADOS
+# robots.txt
+# ==========================================================
+
+User-agent: *
+
+Allow: /
+
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /.git/
+Disallow: /node_modules/
+
+Sitemap: https://www.bragaroas.com.br/sitemap.xml
